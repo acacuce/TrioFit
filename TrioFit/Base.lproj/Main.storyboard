@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Fit.jpg" image="Fit.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mwR-kD-gnd">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fit.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OfJ-7A-CBG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPK-d8-ERT">
                                 <rect key="frame" x="139" y="479" width="136" height="33"/>
@@ -37,27 +37,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="tPK-d8-ERT" secondAttribute="trailing" constant="139" id="2rC-Yd-QGD"/>
-                            <constraint firstItem="mwR-kD-gnd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5hf-EY-EmM"/>
-                            <constraint firstItem="tPK-d8-ERT" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="415" id="RWS-Wh-B6N"/>
-                            <constraint firstAttribute="trailing" secondItem="mwR-kD-gnd" secondAttribute="trailing" id="UXQ-cw-g8B"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="tPK-d8-ERT" secondAttribute="bottom" constant="224" id="ZQn-aG-qgq"/>
-                            <constraint firstItem="tPK-d8-ERT" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="139" id="azh-cN-tcf"/>
-                            <constraint firstItem="tPK-d8-ERT" firstAttribute="centerX" secondItem="mwR-kD-gnd" secondAttribute="centerX" id="dR9-7k-6XY"/>
-                            <constraint firstItem="mwR-kD-gnd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oW8-m2-ckz"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mwR-kD-gnd" secondAttribute="bottom" id="vYh-Lf-T4C"/>
+                            <constraint firstItem="OfJ-7A-CBG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Ob-XQ-er2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="tPK-d8-ERT" secondAttribute="bottom" constant="224" id="9sD-nU-ohr"/>
+                            <constraint firstAttribute="trailing" secondItem="OfJ-7A-CBG" secondAttribute="trailing" id="Ej2-zi-W4s"/>
+                            <constraint firstItem="OfJ-7A-CBG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fuk-2m-Wpq"/>
+                            <constraint firstItem="tPK-d8-ERT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eNJ-T5-5cI"/>
+                            <constraint firstItem="tPK-d8-ERT" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="415" id="jgw-h1-rEg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OfJ-7A-CBG" secondAttribute="bottom" id="sKa-k3-PM6"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="2rC-Yd-QGD"/>
-                                <exclude reference="azh-cN-tcf"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="FCX-2d-vUp"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="BackGroundImage1" destination="mwR-kD-gnd" id="6q5-xy-aHX"/>
                         <outlet property="startButton" destination="tPK-d8-ERT" id="c10-rz-Kq6"/>
                     </connections>
                 </viewController>

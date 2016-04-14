@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62C445A5161C8C07274513A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E27A5DEC3523130E389E5C21 /* libPods.a */; };
+		E1133FC81CB9240F0041BCAC /* ViewContr3.m in Sources */ = {isa = PBXBuildFile; fileRef = E1133FC71CB9240F0041BCAC /* ViewContr3.m */; };
 		E11C1AC61CAD5A5E00B9B2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AC51CAD5A5E00B9B2CF /* main.m */; };
 		E11C1AC91CAD5A5E00B9B2CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AC81CAD5A5E00B9B2CF /* AppDelegate.m */; };
 		E11C1ACC1CAD5A5E00B9B2CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1ACB1CAD5A5E00B9B2CF /* ViewController.m */; };
@@ -16,6 +17,10 @@
 		E11C1AD41CAD5A5E00B9B2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C1AD21CAD5A5E00B9B2CF /* LaunchScreen.storyboard */; };
 		E11C1ADF1CAD5A5E00B9B2CF /* TrioFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1ADE1CAD5A5E00B9B2CF /* TrioFitTests.m */; };
 		E11C1AEA1CAD5A5E00B9B2CF /* TrioFitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AE91CAD5A5E00B9B2CF /* TrioFitUITests.m */; };
+		E1E0CE551CBEEC0300FCA139 /* Fit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE541CBEEC0300FCA139 /* Fit.jpg */; };
+		E1E0CE571CBEF33300FCA139 /* Fit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE561CBEF33300FCA139 /* Fit1.jpg */; };
+		E1E0CE591CBEF5C900FCA139 /* Fit3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE581CBEF5C900FCA139 /* Fit3.png */; };
+		E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F76A7A1CB92147004F6F7B /* ViewContr2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +43,15 @@
 /* Begin PBXFileReference section */
 		5D365964BF402DEF536660A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		89E45100A720A929D5004FC5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E1133FC61CB9240F0041BCAC /* ViewContr3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr3.h; sourceTree = "<group>"; };
+		E1133FC71CB9240F0041BCAC /* ViewContr3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContr3.m; sourceTree = "<group>"; tabWidth = 4; };
+		E1133FCB1CB9B30D0041BCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11C1AC11CAD5A5E00B9B2CF /* TrioFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrioFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C1AC51CAD5A5E00B9B2CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E11C1AC71CAD5A5E00B9B2CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E11C1AC81CAD5A5E00B9B2CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E11C1ACA1CAD5A5E00B9B2CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E11C1ACB1CAD5A5E00B9B2CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E11C1ACE1CAD5A5E00B9B2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E11C1AD01CAD5A5E00B9B2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11C1AD31CAD5A5E00B9B2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11C1AD51CAD5A5E00B9B2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +61,11 @@
 		E11C1AE51CAD5A5E00B9B2CF /* TrioFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrioFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C1AE91CAD5A5E00B9B2CF /* TrioFitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrioFitUITests.m; sourceTree = "<group>"; };
 		E11C1AEB1CAD5A5E00B9B2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E0CE541CBEEC0300FCA139 /* Fit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fit.jpg; sourceTree = "<group>"; };
+		E1E0CE561CBEF33300FCA139 /* Fit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fit1.jpg; sourceTree = "<group>"; };
+		E1E0CE581CBEF5C900FCA139 /* Fit3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fit3.png; sourceTree = "<group>"; };
+		E1F76A791CB92147004F6F7B /* ViewContr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr2.h; sourceTree = "<group>"; };
+		E1F76A7A1CB92147004F6F7B /* ViewContr2.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ViewContr2.m; sourceTree = "<group>"; };
 		E27A5DEC3523130E389E5C21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,9 +112,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E1133FC91CB924190041BCAC /* VC3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VC3;
+			sourceTree = "<group>";
+		};
 		E11C1AB81CAD5A5E00B9B2CF = {
 			isa = PBXGroup;
 			children = (
+				E1133FC91CB924190041BCAC /* VC3 */,
+				E1133FC61CB9240F0041BCAC /* ViewContr3.h */,
+				E1133FC71CB9240F0041BCAC /* ViewContr3.m */,
+				E1F76A7C1CB92161004F6F7B /* TableVC */,
+				E1F76A791CB92147004F6F7B /* ViewContr2.h */,
+				E1F76A7A1CB92147004F6F7B /* ViewContr2.m */,
 				E11C1AC31CAD5A5E00B9B2CF /* TrioFit */,
 				E11C1ADD1CAD5A5E00B9B2CF /* TrioFitTests */,
 				E11C1AE81CAD5A5E00B9B2CF /* TrioFitUITests */,
@@ -133,6 +158,9 @@
 				E11C1AD01CAD5A5E00B9B2CF /* Assets.xcassets */,
 				E11C1AD21CAD5A5E00B9B2CF /* LaunchScreen.storyboard */,
 				E11C1AD51CAD5A5E00B9B2CF /* Info.plist */,
+				E1E0CE581CBEF5C900FCA139 /* Fit3.png */,
+				E1E0CE561CBEF33300FCA139 /* Fit1.jpg */,
+				E1E0CE541CBEEC0300FCA139 /* Fit.jpg */,
 				E11C1AC41CAD5A5E00B9B2CF /* Supporting Files */,
 			);
 			path = TrioFit;
@@ -162,6 +190,13 @@
 				E11C1AEB1CAD5A5E00B9B2CF /* Info.plist */,
 			);
 			path = TrioFitUITests;
+			sourceTree = "<group>";
+		};
+		E1F76A7C1CB92161004F6F7B /* TableVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11C1AD41CAD5A5E00B9B2CF /* LaunchScreen.storyboard in Resources */,
+				E1E0CE551CBEEC0300FCA139 /* Fit.jpg in Resources */,
+				E1E0CE571CBEF33300FCA139 /* Fit1.jpg in Resources */,
+				E1E0CE591CBEF5C900FCA139 /* Fit3.png in Resources */,
 				E11C1AD11CAD5A5E00B9B2CF /* Assets.xcassets in Resources */,
 				E11C1ACF1CAD5A5E00B9B2CF /* Main.storyboard in Resources */,
 			);
@@ -346,7 +384,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11C1ACC1CAD5A5E00B9B2CF /* ViewController.m in Sources */,
+				E1133FC81CB9240F0041BCAC /* ViewContr3.m in Sources */,
 				E11C1AC91CAD5A5E00B9B2CF /* AppDelegate.m in Sources */,
+				E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */,
 				E11C1AC61CAD5A5E00B9B2CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +426,7 @@
 		E11C1ACD1CAD5A5E00B9B2CF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E11C1ACE1CAD5A5E00B9B2CF /* Base */,
+				E1133FCB1CB9B30D0041BCAC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

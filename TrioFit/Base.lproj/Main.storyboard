@@ -169,6 +169,7 @@
                         <outlet property="foodButton" destination="4mc-ec-bIu" id="aKF-eI-tqN"/>
                         <outlet property="libraryButton" destination="b2s-7q-7wD" id="a6b-lr-VfR"/>
                         <outlet property="mainButton" destination="6XH-Dd-KEU" id="aWd-8L-P07"/>
+                        <outlet property="programButton" destination="6XH-Dd-KEU" id="ydi-Bs-GcP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJt-kV-Qt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -248,7 +249,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Назад"/>
                                 <connections>
-                                    <segue destination="zvq-b1-3ZQ" kind="unwind" unwindAction="prepareForUnwind:" id="nGO-br-Y88"/>
+                                    <segue destination="zvq-b1-3ZQ" kind="unwind" unwindAction="prepareForUnwind:" id="rEV-md-uzp"/>
                                 </connections>
                             </button>
                         </barButtonItem>

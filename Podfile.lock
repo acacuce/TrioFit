@@ -1,10 +1,27 @@
 PODS:
+  - CalendarLib (2.0):
+    - OrderedDictionary (~> 1.2)
+    - OSCache (~> 1.2)
+  - OrderedDictionary (1.2)
+  - OSCache (1.2.1)
   - SIAlertView (1.3)
+  - TOWebViewController (2.2.3):
+    - TOWebViewController/Core (= 2.2.3)
+  - TOWebViewController/Core (2.2.3)
+  - XCDYouTubeKit (2.5.1)
 
 DEPENDENCIES:
+  - CalendarLib (~> 2.0)
   - SIAlertView (~> 1.3)
+  - TOWebViewController (~> 2.2)
+  - XCDYouTubeKit (~> 2.5)
 
 SPEC CHECKSUMS:
+  CalendarLib: 040a8a655376581d8dc7c3c63196ddcf5223f471
+  OrderedDictionary: 9cc5d69c5c5314ad696ed1839190724e83d534c7
+  OSCache: 826996b68e8542a8a3d8af1ab0a0fc3070d8f357
   SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  TOWebViewController: ca47b9aeefe66acb3353d197dc8270338540b116
+  XCDYouTubeKit: ee78997dc92d1055f11459d95c492dae1dba909d
 
 COCOAPODS: 0.39.0

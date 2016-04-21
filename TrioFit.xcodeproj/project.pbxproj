@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		62C445A5161C8C07274513A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E27A5DEC3523130E389E5C21 /* libPods.a */; };
+		E103D28A1CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E103D2891CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m */; };
+		E103D28D1CC6E4B300DCB4E6 /* ExcerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E103D28C1CC6E4B300DCB4E6 /* ExcerciseViewController.m */; };
+		E103D2901CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E103D28F1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m */; };
 		E1133FC81CB9240F0041BCAC /* ViewContr3.m in Sources */ = {isa = PBXBuildFile; fileRef = E1133FC71CB9240F0041BCAC /* ViewContr3.m */; };
 		E11C1AC61CAD5A5E00B9B2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AC51CAD5A5E00B9B2CF /* main.m */; };
 		E11C1AC91CAD5A5E00B9B2CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AC81CAD5A5E00B9B2CF /* AppDelegate.m */; };
@@ -17,9 +20,11 @@
 		E11C1AD41CAD5A5E00B9B2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C1AD21CAD5A5E00B9B2CF /* LaunchScreen.storyboard */; };
 		E11C1ADF1CAD5A5E00B9B2CF /* TrioFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1ADE1CAD5A5E00B9B2CF /* TrioFitTests.m */; };
 		E11C1AEA1CAD5A5E00B9B2CF /* TrioFitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11C1AE91CAD5A5E00B9B2CF /* TrioFitUITests.m */; };
+		E174B7421CC7DD34005292B8 /* DaysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E174B7411CC7DD34005292B8 /* DaysTableViewController.m */; };
 		E1E0CE551CBEEC0300FCA139 /* Fit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE541CBEEC0300FCA139 /* Fit.jpg */; };
 		E1E0CE571CBEF33300FCA139 /* Fit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE561CBEF33300FCA139 /* Fit1.jpg */; };
 		E1E0CE591CBEF5C900FCA139 /* Fit3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE581CBEF5C900FCA139 /* Fit3.png */; };
+		E1E0CE671CC02E9400FCA139 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E0CE661CC02E9400FCA139 /* CalendarViewController.m */; };
 		E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F76A7A1CB92147004F6F7B /* ViewContr2.m */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +48,12 @@
 /* Begin PBXFileReference section */
 		5D365964BF402DEF536660A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		89E45100A720A929D5004FC5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E103D2881CC6DE8D00DCB4E6 /* ExcerciseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerciseTableViewController.h; sourceTree = "<group>"; };
+		E103D2891CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerciseTableViewController.m; sourceTree = "<group>"; };
+		E103D28B1CC6E4B300DCB4E6 /* ExcerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerciseViewController.h; sourceTree = "<group>"; };
+		E103D28C1CC6E4B300DCB4E6 /* ExcerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerciseViewController.m; sourceTree = "<group>"; };
+		E103D28E1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameOfExcerciseViewController.h; sourceTree = "<group>"; };
+		E103D28F1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameOfExcerciseViewController.m; sourceTree = "<group>"; };
 		E1133FC61CB9240F0041BCAC /* ViewContr3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr3.h; sourceTree = "<group>"; };
 		E1133FC71CB9240F0041BCAC /* ViewContr3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContr3.m; sourceTree = "<group>"; tabWidth = 4; };
 		E1133FCB1CB9B30D0041BCAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,9 +72,13 @@
 		E11C1AE51CAD5A5E00B9B2CF /* TrioFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrioFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C1AE91CAD5A5E00B9B2CF /* TrioFitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrioFitUITests.m; sourceTree = "<group>"; };
 		E11C1AEB1CAD5A5E00B9B2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E174B7401CC7DD34005292B8 /* DaysTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysTableViewController.h; sourceTree = "<group>"; };
+		E174B7411CC7DD34005292B8 /* DaysTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysTableViewController.m; sourceTree = "<group>"; };
 		E1E0CE541CBEEC0300FCA139 /* Fit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fit.jpg; sourceTree = "<group>"; };
 		E1E0CE561CBEF33300FCA139 /* Fit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fit1.jpg; sourceTree = "<group>"; };
 		E1E0CE581CBEF5C900FCA139 /* Fit3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fit3.png; sourceTree = "<group>"; };
+		E1E0CE651CC02E9400FCA139 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		E1E0CE661CC02E9400FCA139 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		E1F76A791CB92147004F6F7B /* ViewContr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr2.h; sourceTree = "<group>"; };
 		E1F76A7A1CB92147004F6F7B /* ViewContr2.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ViewContr2.m; sourceTree = "<group>"; };
 		E27A5DEC3523130E389E5C21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +130,8 @@
 		E1133FC91CB924190041BCAC /* VC3 */ = {
 			isa = PBXGroup;
 			children = (
+				E1133FC61CB9240F0041BCAC /* ViewContr3.h */,
+				E1133FC71CB9240F0041BCAC /* ViewContr3.m */,
 			);
 			name = VC3;
 			sourceTree = "<group>";
@@ -123,11 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E1133FC91CB924190041BCAC /* VC3 */,
-				E1133FC61CB9240F0041BCAC /* ViewContr3.h */,
-				E1133FC71CB9240F0041BCAC /* ViewContr3.m */,
 				E1F76A7C1CB92161004F6F7B /* TableVC */,
-				E1F76A791CB92147004F6F7B /* ViewContr2.h */,
-				E1F76A7A1CB92147004F6F7B /* ViewContr2.m */,
 				E11C1AC31CAD5A5E00B9B2CF /* TrioFit */,
 				E11C1ADD1CAD5A5E00B9B2CF /* TrioFitTests */,
 				E11C1AE81CAD5A5E00B9B2CF /* TrioFitUITests */,
@@ -155,6 +168,15 @@
 				E11C1ACA1CAD5A5E00B9B2CF /* ViewController.h */,
 				E11C1ACB1CAD5A5E00B9B2CF /* ViewController.m */,
 				E11C1ACD1CAD5A5E00B9B2CF /* Main.storyboard */,
+				E174B7401CC7DD34005292B8 /* DaysTableViewController.h */,
+				E174B7411CC7DD34005292B8 /* DaysTableViewController.m */,
+				E103D28E1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.h */,
+				E103D28F1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m */,
+				E103D28B1CC6E4B300DCB4E6 /* ExcerciseViewController.h */,
+				E103D28C1CC6E4B300DCB4E6 /* ExcerciseViewController.m */,
+				E103D2881CC6DE8D00DCB4E6 /* ExcerciseTableViewController.h */,
+				E103D2891CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m */,
+				E1E0CE611CC02D9600FCA139 /* Calendar */,
 				E11C1AD01CAD5A5E00B9B2CF /* Assets.xcassets */,
 				E11C1AD21CAD5A5E00B9B2CF /* LaunchScreen.storyboard */,
 				E11C1AD51CAD5A5E00B9B2CF /* Info.plist */,
@@ -192,9 +214,21 @@
 			path = TrioFitUITests;
 			sourceTree = "<group>";
 		};
+		E1E0CE611CC02D9600FCA139 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E1E0CE651CC02E9400FCA139 /* CalendarViewController.h */,
+				E1E0CE661CC02E9400FCA139 /* CalendarViewController.m */,
+			);
+			name = Calendar;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		E1F76A7C1CB92161004F6F7B /* TableVC */ = {
 			isa = PBXGroup;
 			children = (
+				E1F76A791CB92147004F6F7B /* ViewContr2.h */,
+				E1F76A7A1CB92147004F6F7B /* ViewContr2.m */,
 			);
 			name = TableVC;
 			sourceTree = "<group>";
@@ -385,8 +419,13 @@
 			files = (
 				E11C1ACC1CAD5A5E00B9B2CF /* ViewController.m in Sources */,
 				E1133FC81CB9240F0041BCAC /* ViewContr3.m in Sources */,
+				E174B7421CC7DD34005292B8 /* DaysTableViewController.m in Sources */,
+				E103D28A1CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m in Sources */,
 				E11C1AC91CAD5A5E00B9B2CF /* AppDelegate.m in Sources */,
 				E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */,
+				E1E0CE671CC02E9400FCA139 /* CalendarViewController.m in Sources */,
+				E103D2901CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m in Sources */,
+				E103D28D1CC6E4B300DCB4E6 /* ExcerciseViewController.m in Sources */,
 				E11C1AC61CAD5A5E00B9B2CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -436,11 +436,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5r-nq-bRY">
-                                <rect key="frame" x="0.0" y="117" width="414" height="149"/>
+                                <rect key="frame" x="0.0" y="90" width="414" height="149"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHl-Xg-kyY">
+                                <rect key="frame" x="0.0" y="513" width="414" height="149"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsX-pH-Pkq">
-                                <rect key="frame" x="0.0" y="332" width="414" height="149"/>
+                                <rect key="frame" x="0.0" y="303" width="414" height="149"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>

@@ -20,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:@"isCreated" forKey:@"program"];
     
     self.stepper.wraps = YES;
     self.stepper.autorepeat = YES;
@@ -40,7 +42,7 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"forwardToSegue"]){
+    if ([segue.identifier isEqualToString:@"forwardToSegue"]) {
     DaysTableViewController *destinatViewController = segue.destinationViewController;
     destinatViewController.forwardButtonString = _counterLabel.text;
     }

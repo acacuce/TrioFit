@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SIAlertView"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SIAlertView"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"SIAlertView" -framework "QuartzCore"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CalendarLib" "${PODS_ROOT}/Headers/Public/OSCache" "${PODS_ROOT}/Headers/Public/OrderedDictionary" "${PODS_ROOT}/Headers/Public/SIAlertView" "${PODS_ROOT}/Headers/Public/TOWebViewController" "${PODS_ROOT}/Headers/Public/XCDYouTubeKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CalendarLib" -isystem "${PODS_ROOT}/Headers/Public/OSCache" -isystem "${PODS_ROOT}/Headers/Public/OrderedDictionary" -isystem "${PODS_ROOT}/Headers/Public/SIAlertView" -isystem "${PODS_ROOT}/Headers/Public/TOWebViewController" -isystem "${PODS_ROOT}/Headers/Public/XCDYouTubeKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CalendarLib" -l"OSCache" -l"OrderedDictionary" -l"SIAlertView" -l"TOWebViewController" -l"XCDYouTubeKit" -framework "CoreGraphics" -framework "EventKit" -framework "EventKitUI" -framework "Foundation" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "QuartzCore" -framework "UIKit" -weak_framework "MessageUI" -weak_framework "Twitter"
 PODS_ROOT = ${SRCROOT}/Pods

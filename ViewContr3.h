@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewContr3 : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *forwardButton;
 
 @property (weak, nonatomic)
 IBOutlet UIStepper
@@ -17,6 +18,8 @@ IBOutlet UIStepper
 @property (weak, nonatomic)
 IBOutlet UILabel
 *counterLabel;
+
+
 
 - (IBAction)stepperValueChanged:(id)sender;
 

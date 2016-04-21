@@ -8,9 +8,11 @@
 
 #import "ViewContr3.h"
 #import "ViewContr2.h"
+#import "DaysTableViewController.h"
 
 
 @interface ViewContr3 ()
+
 
 @end
 
@@ -33,18 +35,24 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    DaysTableViewController *destinatViewController = segue.destinationViewController;
+    destinatViewController.forwardButtonString = _counterLabel.text;
+    
+    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
 }
-*/
 
 - (IBAction)stepperValueChanged:(id)sender {
     NSUInteger value = _stepper.value;
     _counterLabel.text = [NSString stringWithFormat:@"%d",value];
+    
+    
 }
 @end

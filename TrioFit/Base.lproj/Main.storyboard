@@ -258,7 +258,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Вперед"/>
                                 <connections>
-                                    <segue destination="lv0-ZX-0zi" kind="show" id="JQB-2G-QvI"/>
+                                    <segue destination="lv0-ZX-0zi" kind="show" identifier="forwardToSegue" id="JQB-2G-QvI"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -407,6 +407,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="THh-0h-RGG" kind="show" id="IHA-Hy-pSY"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -419,6 +422,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2V-OX-Qx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2469" y="-390"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H2a-1B-fEd">
+            <objects>
+                <viewController id="THh-0h-RGG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dPF-d9-qzO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aXS-uV-SRo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JsA-sw-OOo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5r-nq-bRY">
+                                <rect key="frame" x="0.0" y="117" width="414" height="149"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsX-pH-Pkq">
+                                <rect key="frame" x="0.0" y="332" width="414" height="149"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvn-cm-W45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3095" y="-397"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tvK-hL-2hg">

@@ -7,8 +7,13 @@
 //
 
 #import "NameOfExcerciseViewController.h"
+#import "ExcerciseTableViewController.h"
+#import <XCDYouTubeKit/XCDYouTubeKit.h>
 
-@interface NameOfExcerciseViewController ()
+
+
+
+@interface NameOfExcerciseViewController () <MPMediaPlayback>
 
 @end
 
@@ -20,9 +25,21 @@
     // Do any additional setup after loading the view.
 }
 
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)play:(id)sender {
+    
+    XCDYouTubeVideoPlayerViewController *videoPlayerViewController =[[XCDYouTubeVideoPlayerViewController alloc] initWithVideoIdentifier:self.youtubeIdentifierString];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayerPlaybackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:videoPlayerViewController.moviePlayer];
+    
+    [self presentViewController:videoPlayerViewController animated:YES completion:nil];
+    
 }
 
 /*
@@ -34,5 +51,26 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+#pragma mark - Notifications
+
+- (void) moviePlayerPlaybackDidFinish:(NSNotification *)notification
+{
+   
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:notification.object];
+    
+    MPMovieFinishReason finishReason = [notification.userInfo[MPMoviePlayerPlaybackDidFinishReasonUserInfoKey] integerValue];
+    
+    if (finishReason == MPMovieFinishReasonPlaybackError)
+    {
+        NSString *title = NSLocalizedString(@"Video Playback Error", @"Full screen video error alert - title");
+        NSError *error = notification.userInfo[XCDMoviePlayerPlaybackDidFinishErrorUserInfoKey];
+        NSString *message = [NSString stringWithFormat:@"%@\n%@ (%@)", error.localizedDescription, error.domain, @(error.code)];
+        NSString *cancelButtonTitle = NSLocalizedString(@"OK", @"Full screen video error alert - cancel button");
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
+        [alertView show];
+    }
+}
 
 @end

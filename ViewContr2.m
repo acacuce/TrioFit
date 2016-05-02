@@ -19,10 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSUserDefaults *defualts = [NSUserDefaults standardUserDefaults];
-    if (defualts objectForKey:@"program") {
-        _programButton.tex
-    }
     
     // Do any additional setup after loading the view.
 }

@@ -29,6 +29,9 @@
     self.stepper.minimumValue = 1;
     
     self.stepper.maximumValue = 7;
+    
+    _counterLabel.layer.masksToBounds = YES;
+    _counterLabel.layer.cornerRadius = 15;
 
 }
 

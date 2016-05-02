@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008050341CD7E705006CE527 /* 1ba3f532563147.568ab19670649.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0080502A1CD7E705006CE527 /* 1ba3f532563147.568ab19670649.jpg */; };
+		008050351CD7E705006CE527 /* 3c0c2932563147.568ab19677ee6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0080502B1CD7E705006CE527 /* 3c0c2932563147.568ab19677ee6.jpg */; };
+		008050361CD7E705006CE527 /* 2016-Calendar-White.png in Resources */ = {isa = PBXBuildFile; fileRef = 0080502C1CD7E705006CE527 /* 2016-Calendar-White.png */; };
+		008050371CD7E705006CE527 /* 04170f32563147.568ab1966b16e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0080502D1CD7E705006CE527 /* 04170f32563147.568ab1966b16e.jpg */; };
+		008050381CD7E705006CE527 /* CalendarViewContr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0080502E1CD7E705006CE527 /* CalendarViewContr.jpg */; };
+		008050391CD7E705006CE527 /* FoodViewContr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0080502F1CD7E705006CE527 /* FoodViewContr.jpg */; };
+		0080503A1CD7E705006CE527 /* tekstury-fbbd55c1297f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008050301CD7E705006CE527 /* tekstury-fbbd55c1297f.jpg */; };
+		0080503B1CD7E705006CE527 /* ViewContr2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008050311CD7E705006CE527 /* ViewContr2.jpg */; };
+		0080503C1CD7E705006CE527 /* ViewContr3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008050321CD7E705006CE527 /* ViewContr3.jpg */; };
+		0080503D1CD7E705006CE527 /* ViewController.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008050331CD7E705006CE527 /* ViewController.jpg */; };
+		00962BE01CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).m in Sources */ = {isa = PBXBuildFile; fileRef = 00962BDF1CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).m */; };
 		62C445A5161C8C07274513A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E27A5DEC3523130E389E5C21 /* libPods.a */; };
 		E103D28A1CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E103D2891CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m */; };
 		E103D28D1CC6E4B300DCB4E6 /* ExcerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E103D28C1CC6E4B300DCB4E6 /* ExcerciseViewController.m */; };
@@ -46,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0080502A1CD7E705006CE527 /* 1ba3f532563147.568ab19670649.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1ba3f532563147.568ab19670649.jpg; path = Pict/1ba3f532563147.568ab19670649.jpg; sourceTree = "<group>"; };
+		0080502B1CD7E705006CE527 /* 3c0c2932563147.568ab19677ee6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3c0c2932563147.568ab19677ee6.jpg; path = Pict/3c0c2932563147.568ab19677ee6.jpg; sourceTree = "<group>"; };
+		0080502C1CD7E705006CE527 /* 2016-Calendar-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2016-Calendar-White.png"; path = "Pict/2016-Calendar-White.png"; sourceTree = "<group>"; };
+		0080502D1CD7E705006CE527 /* 04170f32563147.568ab1966b16e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04170f32563147.568ab1966b16e.jpg; path = Pict/04170f32563147.568ab1966b16e.jpg; sourceTree = "<group>"; };
+		0080502E1CD7E705006CE527 /* CalendarViewContr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CalendarViewContr.jpg; path = Pict/CalendarViewContr.jpg; sourceTree = "<group>"; };
+		0080502F1CD7E705006CE527 /* FoodViewContr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FoodViewContr.jpg; path = Pict/FoodViewContr.jpg; sourceTree = "<group>"; };
+		008050301CD7E705006CE527 /* tekstury-fbbd55c1297f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tekstury-fbbd55c1297f.jpg"; path = "Pict/tekstury-fbbd55c1297f.jpg"; sourceTree = "<group>"; };
+		008050311CD7E705006CE527 /* ViewContr2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ViewContr2.jpg; path = Pict/ViewContr2.jpg; sourceTree = "<group>"; };
+		008050321CD7E705006CE527 /* ViewContr3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ViewContr3.jpg; path = Pict/ViewContr3.jpg; sourceTree = "<group>"; };
+		008050331CD7E705006CE527 /* ViewController.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ViewController.jpg; path = Pict/ViewController.jpg; sourceTree = "<group>"; };
+		00962BDE1CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MPMoviePlayerController (BackgroundPlayback).h"; path = "../MPMoviePlayerController (BackgroundPlayback).h"; sourceTree = "<group>"; };
+		00962BDF1CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MPMoviePlayerController (BackgroundPlayback).m"; path = "../MPMoviePlayerController (BackgroundPlayback).m"; sourceTree = "<group>"; };
 		5D365964BF402DEF536660A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		89E45100A720A929D5004FC5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E103D2881CC6DE8D00DCB4E6 /* ExcerciseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerciseTableViewController.h; sourceTree = "<group>"; };
@@ -139,6 +162,16 @@
 		E11C1AB81CAD5A5E00B9B2CF = {
 			isa = PBXGroup;
 			children = (
+				0080502A1CD7E705006CE527 /* 1ba3f532563147.568ab19670649.jpg */,
+				0080502B1CD7E705006CE527 /* 3c0c2932563147.568ab19677ee6.jpg */,
+				0080502C1CD7E705006CE527 /* 2016-Calendar-White.png */,
+				0080502D1CD7E705006CE527 /* 04170f32563147.568ab1966b16e.jpg */,
+				0080502E1CD7E705006CE527 /* CalendarViewContr.jpg */,
+				0080502F1CD7E705006CE527 /* FoodViewContr.jpg */,
+				008050301CD7E705006CE527 /* tekstury-fbbd55c1297f.jpg */,
+				008050311CD7E705006CE527 /* ViewContr2.jpg */,
+				008050321CD7E705006CE527 /* ViewContr3.jpg */,
+				008050331CD7E705006CE527 /* ViewController.jpg */,
 				E1133FC91CB924190041BCAC /* VC3 */,
 				E1F76A7C1CB92161004F6F7B /* TableVC */,
 				E11C1AC31CAD5A5E00B9B2CF /* TrioFit */,
@@ -168,6 +201,8 @@
 				E11C1ACA1CAD5A5E00B9B2CF /* ViewController.h */,
 				E11C1ACB1CAD5A5E00B9B2CF /* ViewController.m */,
 				E11C1ACD1CAD5A5E00B9B2CF /* Main.storyboard */,
+				00962BDE1CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).h */,
+				00962BDF1CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).m */,
 				E174B7401CC7DD34005292B8 /* DaysTableViewController.h */,
 				E174B7411CC7DD34005292B8 /* DaysTableViewController.m */,
 				E103D28E1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.h */,
@@ -341,10 +376,20 @@
 			files = (
 				E11C1AD41CAD5A5E00B9B2CF /* LaunchScreen.storyboard in Resources */,
 				E1E0CE551CBEEC0300FCA139 /* Fit.jpg in Resources */,
+				008050361CD7E705006CE527 /* 2016-Calendar-White.png in Resources */,
+				0080503B1CD7E705006CE527 /* ViewContr2.jpg in Resources */,
 				E1E0CE571CBEF33300FCA139 /* Fit1.jpg in Resources */,
+				0080503C1CD7E705006CE527 /* ViewContr3.jpg in Resources */,
+				008050351CD7E705006CE527 /* 3c0c2932563147.568ab19677ee6.jpg in Resources */,
 				E1E0CE591CBEF5C900FCA139 /* Fit3.png in Resources */,
+				008050341CD7E705006CE527 /* 1ba3f532563147.568ab19670649.jpg in Resources */,
+				008050391CD7E705006CE527 /* FoodViewContr.jpg in Resources */,
+				0080503D1CD7E705006CE527 /* ViewController.jpg in Resources */,
+				008050371CD7E705006CE527 /* 04170f32563147.568ab1966b16e.jpg in Resources */,
+				008050381CD7E705006CE527 /* CalendarViewContr.jpg in Resources */,
 				E11C1AD11CAD5A5E00B9B2CF /* Assets.xcassets in Resources */,
 				E11C1ACF1CAD5A5E00B9B2CF /* Main.storyboard in Resources */,
+				0080503A1CD7E705006CE527 /* tekstury-fbbd55c1297f.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +472,7 @@
 				E103D2901CC6EEED00DCB4E6 /* NameOfExcerciseViewController.m in Sources */,
 				E103D28D1CC6E4B300DCB4E6 /* ExcerciseViewController.m in Sources */,
 				E11C1AC61CAD5A5E00B9B2CF /* main.m in Sources */,
+				00962BE01CD2407100159467 /* MPMoviePlayerController (BackgroundPlayback).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

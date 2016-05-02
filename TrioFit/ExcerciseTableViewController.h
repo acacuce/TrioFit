@@ -11,5 +11,4 @@
 @interface ExcerciseTableViewController : UITableViewController
 @property (nonatomic,strong) NSString *excerciseButtonString;
 
-
 @end

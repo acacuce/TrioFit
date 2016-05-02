@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NameOfExcerciseViewController : UIViewController
+
+
+@interface NameOfExcerciseViewController : UIViewController 
+
 @property (nonatomic,strong) NSString *nameOfExcercise;
+@property (strong, nonatomic) NSURL *url;
+@property (strong, nonatomic) NSString *youtubeIdentifierString;
+
+
+-(IBAction) play:(id)sender;
+
 
 @end

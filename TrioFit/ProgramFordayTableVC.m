@@ -1,26 +1,36 @@
 //
-//  DaysTableViewController.m
+//  ProgramFordayTableVC.m
 //  TrioFit
 //
-//  Created by Наталья on 20.04.16.
+//  Created by Наталья on 28.04.16.
 //  Copyright © 2016 Наталья. All rights reserved.
 //
 
+#import "ProgramFordayTableVC.h"
+#import "ExcerciseTableViewController.h"
 #import "DaysTableViewController.h"
-#import "ViewContr3.h"
-#import "ExcerciseViewController.h"
 
-@interface DaysTableViewController ()
-@property (nonatomic,strong) NSArray *daysArray;
+
+
+
+
+@interface ProgramFordayTableVC ()
 
 @end
 
-@implementation DaysTableViewController
+@implementation ProgramFordayTableVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView.delegate = self;
-    _daysArray = @[@"День 1 ", @"День 2", @"День 3 ", @"День 4", @"День 5", @"День 6", @"День 7"];
+    
+    
+    UIBarButtonItem *doneBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(barButtonPressed:)];
+    
+    
+    self.navigationItem.rightBarButtonItem = doneBarButton;
+    
+
+    NSLog(@"%@",_programForDayArray);
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -29,12 +39,20 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (void)barButtonPressed:(id)sender{
+    
+   
+    [self performSegueWithIdentifier:@"saveExcerciseOfDaySegue" sender:self];
+    
+    
+}
+
 
 #pragma mark - Table view data source
 
@@ -45,22 +63,19 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return [_forwardButtonString integerValue];
+    return _programForDayArray.count;
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellId" forIndexPath:indexPath];
-    cell.textLabel.text = _daysArray[indexPath.row];
+    cell.textLabel.text =_programForDayArray[indexPath.row];
+    // Configure the cell...
     
     return cell;
-
 }
 
 
-- (void)tableView:(UITableView *)tableView
-didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
-}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -95,11 +110,14 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 }
 */
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    ExcerciseViewController *dst = segue.destinationViewController;
-    dst.isCreating = YES;
- 
-}
+/*
+#pragma mark - Navigation
 
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface ExcerciseTableViewController : UITableViewController
 @property (nonatomic,strong) NSString *excerciseButtonString;
+@property (nonatomic) BOOL isCreating;
+@property (nonatomic, strong) NSString *dayButtonString;
+
 
 
 @end

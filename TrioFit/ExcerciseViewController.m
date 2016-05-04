@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -38,6 +39,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     ExcerciseTableViewController *destViewController = segue.destinationViewController;
     destViewController.excerciseButtonString = sender;
+    destViewController.isCreating = _isCreating;
 }
 
 /*

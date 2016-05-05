@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cKO-9o-VQC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cKO-9o-VQC">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -88,7 +88,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="hNJ-6i-kO9" kind="push" id="TVK-yt-bWu"/>
+                                    <segue destination="hNJ-6i-kO9" kind="push" identifier="" id="TVK-yt-bWu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbe-Hd-mK9">
@@ -169,6 +169,7 @@
                         <outlet property="foodButton" destination="4mc-ec-bIu" id="aKF-eI-tqN"/>
                         <outlet property="libraryButton" destination="b2s-7q-7wD" id="a6b-lr-VfR"/>
                         <outlet property="mainButton" destination="6XH-Dd-KEU" id="aWd-8L-P07"/>
+                        <outlet property="programButton" destination="6XH-Dd-KEU" id="ydi-Bs-GcP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJt-kV-Qt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -248,7 +249,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Назад"/>
                                 <connections>
-                                    <segue destination="zvq-b1-3ZQ" kind="unwind" unwindAction="prepareForUnwind:" id="nGO-br-Y88"/>
+                                    <segue destination="zvq-b1-3ZQ" kind="unwind" unwindAction="prepareForUnwind:" id="rEV-md-uzp"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -315,12 +316,12 @@
                     <navigationItem key="navigationItem" id="0OZ-hi-GhQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="Ztr-FT-qgp" kind="show" identifier="excerciseSegue" id="93G-Io-boY"/>
+                        <segue destination="Ztr-FT-qgp" kind="show" identifier="excerciseSegue" id="a1k-hj-Jz9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3f-0r-8dx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1341" y="477"/>
+            <point key="canvasLocation" x="1341" y="530"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ClO-hk-Q6X">
@@ -340,27 +341,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qc1-xk-pWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1909" y="477"/>
+            <point key="canvasLocation" x="2384" y="622"/>
         </scene>
         <!--Excercise Table View Controller-->
         <scene sceneID="nW4-2a-Nsp">
             <objects>
                 <tableViewController id="Ztr-FT-qgp" customClass="ExcerciseTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Kkw-17-mOP">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Kkw-17-mOP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cellId" id="n8r-Ps-ayi">
+                            <tableViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="cellId" id="n8r-Ps-ayi">
                                 <rect key="frame" x="0.0" y="113.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n8r-Ps-ayi" id="uDK-Aa-Aph">
-                                    <rect key="frame" x="0.0" y="0.0" width="381" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="Z7T-UV-97M" kind="show" id="r8U-HC-bLa"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -368,10 +366,17 @@
                             <outlet property="delegate" destination="Ztr-FT-qgp" id="MDu-5Q-rlH"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="Z7T-UV-97M" kind="show" identifier="detailInformationSegue" id="yUn-GV-qZ5"/>
+                        <segue destination="lv0-ZX-0zi" kind="show" identifier="doneSegue" id="AvJ-Xb-Zc6"/>
+                        <segue destination="Is5-C4-4Hj" kind="show" identifier="progrramForDaySegue" id="S71-rB-JFB"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20b-rB-izz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1925" y="1367"/>
+            <point key="canvasLocation" x="1431" y="1565"/>
         </scene>
         <!--Name Of Excercise View Controller-->
         <scene sceneID="d47-7q-dX8">
@@ -389,7 +394,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPi-xu-5if" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2527" y="1361"/>
+            <point key="canvasLocation" x="2224" y="1565"/>
+        </scene>
+        <!--Program Forday TableVC-->
+        <scene sceneID="vgq-RX-SaE">
+            <objects>
+                <tableViewController id="Is5-C4-4Hj" customClass="ProgramFordayTableVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ah1-YI-B8r">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" id="fe7-EJ-8ZX">
+                                <rect key="frame" x="0.0" y="92" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fe7-EJ-8ZX" id="9Vj-fP-fUK">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Is5-C4-4Hj" id="Osg-Ed-ecP"/>
+                            <outlet property="delegate" destination="Is5-C4-4Hj" id="rYR-re-Obc"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <connections>
+                        <segue destination="lv0-ZX-0zi" kind="show" identifier="saveExcerciseOfDaySegue" id="JvM-Qm-V1X"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ExV-7c-sAH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2661" y="2565"/>
         </scene>
         <!--Days Table View Controller-->
         <scene sceneID="ZgK-Ck-viY">
@@ -408,7 +445,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="THh-0h-RGG" kind="show" id="IHA-Hy-pSY"/>
+                                    <segue destination="hNJ-6i-kO9" kind="show" identifier="createProgramSegue" id="JOS-Mb-DQI"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -421,35 +458,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2V-OX-Qx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2469" y="-390"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="H2a-1B-fEd">
-            <objects>
-                <viewController id="THh-0h-RGG" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dPF-d9-qzO"/>
-                        <viewControllerLayoutGuide type="bottom" id="aXS-uV-SRo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JsA-sw-OOo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5r-nq-bRY">
-                                <rect key="frame" x="0.0" y="117" width="414" height="149"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsX-pH-Pkq">
-                                <rect key="frame" x="0.0" y="332" width="414" height="149"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvn-cm-W45" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3095" y="-397"/>
+            <point key="canvasLocation" x="2761" y="-434"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tvK-hL-2hg">
@@ -467,6 +476,19 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="psh-m9-9lf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eay-fc-ZqK">
+                    <rect key="frame" x="0.0" y="0.0" width="73" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" image="checkbox.png">
+                        <color key="titleColor" red="0.19607843" green="0.30980393000000001" blue="0.52156866000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="checkbox-checked.png"/>
+                    <state key="highlighted" image="checkbox-pressed.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
             </objects>
             <point key="canvasLocation" x="186" y="-410"/>
         </scene>
@@ -475,5 +497,12 @@
         <image name="Fit.jpg" width="448" height="604"/>
         <image name="Fit1.jpg" width="390" height="525"/>
         <image name="Fit3.png" width="433" height="609"/>
+        <image name="checkbox-checked.png" width="448" height="604"/>
+        <image name="checkbox-pressed.png" width="448" height="604"/>
+        <image name="checkbox.png" width="16" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JOS-Mb-DQI"/>
+        <segue reference="JQB-2G-QvI"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -25,6 +25,7 @@
 		E1E0CE571CBEF33300FCA139 /* Fit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE561CBEF33300FCA139 /* Fit1.jpg */; };
 		E1E0CE591CBEF5C900FCA139 /* Fit3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E0CE581CBEF5C900FCA139 /* Fit3.png */; };
 		E1E0CE671CC02E9400FCA139 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E0CE661CC02E9400FCA139 /* CalendarViewController.m */; };
+		E1F6628F1CD2598F00B776DD /* ProgramFordayTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F6628E1CD2598F00B776DD /* ProgramFordayTableVC.m */; };
 		E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F76A7A1CB92147004F6F7B /* ViewContr2.m */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		E1E0CE581CBEF5C900FCA139 /* Fit3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fit3.png; sourceTree = "<group>"; };
 		E1E0CE651CC02E9400FCA139 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		E1E0CE661CC02E9400FCA139 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		E1F6628D1CD2598F00B776DD /* ProgramFordayTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramFordayTableVC.h; sourceTree = "<group>"; };
+		E1F6628E1CD2598F00B776DD /* ProgramFordayTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramFordayTableVC.m; sourceTree = "<group>"; };
 		E1F76A791CB92147004F6F7B /* ViewContr2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr2.h; sourceTree = "<group>"; };
 		E1F76A7A1CB92147004F6F7B /* ViewContr2.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ViewContr2.m; sourceTree = "<group>"; };
 		E27A5DEC3523130E389E5C21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +171,8 @@
 				E11C1ACA1CAD5A5E00B9B2CF /* ViewController.h */,
 				E11C1ACB1CAD5A5E00B9B2CF /* ViewController.m */,
 				E11C1ACD1CAD5A5E00B9B2CF /* Main.storyboard */,
+				E1F6628D1CD2598F00B776DD /* ProgramFordayTableVC.h */,
+				E1F6628E1CD2598F00B776DD /* ProgramFordayTableVC.m */,
 				E174B7401CC7DD34005292B8 /* DaysTableViewController.h */,
 				E174B7411CC7DD34005292B8 /* DaysTableViewController.m */,
 				E103D28E1CC6EEED00DCB4E6 /* NameOfExcerciseViewController.h */,
@@ -303,6 +308,7 @@
 				TargetAttributes = {
 					E11C1AC01CAD5A5E00B9B2CF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 253FZ393HL;
 					};
 					E11C1AD91CAD5A5E00B9B2CF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -420,6 +426,7 @@
 				E11C1ACC1CAD5A5E00B9B2CF /* ViewController.m in Sources */,
 				E1133FC81CB9240F0041BCAC /* ViewContr3.m in Sources */,
 				E174B7421CC7DD34005292B8 /* DaysTableViewController.m in Sources */,
+				E1F6628F1CD2598F00B776DD /* ProgramFordayTableVC.m in Sources */,
 				E103D28A1CC6DE8D00DCB4E6 /* ExcerciseTableViewController.m in Sources */,
 				E11C1AC91CAD5A5E00B9B2CF /* AppDelegate.m in Sources */,
 				E1F76A7B1CB92147004F6F7B /* ViewContr2.m in Sources */,
@@ -568,10 +575,13 @@
 			baseConfigurationReference = 5D365964BF402DEF536660A7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrioFit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = natalia.TrioFit;
+				PRODUCT_BUNDLE_IDENTIFIER = natusic199797;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -580,10 +590,13 @@
 			baseConfigurationReference = 89E45100A720A929D5004FC5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TrioFit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = natalia.TrioFit;
+				PRODUCT_BUNDLE_IDENTIFIER = natusic199797;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

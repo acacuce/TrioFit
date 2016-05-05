@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ExcerciseViewController : UIViewController
-
+@property (nonatomic) BOOL isCreating;
 
 @end

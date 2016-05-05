@@ -11,6 +11,7 @@
 
 
 @interface ViewContr2 ()
+@property (strong, nonatomic) IBOutlet UIButton *programButton;
 
 @end
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    
     // Do any additional setup after loading the view.
 }
 

@@ -8,6 +8,7 @@
 
 #import "DaysTableViewController.h"
 #import "ViewContr3.h"
+#import "ExcerciseViewController.h"
 
 @interface DaysTableViewController ()
 @property (nonatomic,strong) NSArray *daysArray;
@@ -18,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.tableView.delegate = self;
     _daysArray = @[@"День 1 ", @"День 2", @"День 3 ", @"День 4", @"День 5", @"День 6", @"День 7"];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -27,6 +28,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -50,9 +53,14 @@
     cell.textLabel.text = _daysArray[indexPath.row];
     
     return cell;
+
 }
 
 
+- (void)tableView:(UITableView *)tableView
+didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -87,14 +95,11 @@
 }
 */
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    ExcerciseViewController *dst = segue.destinationViewController;
+    dst.isCreating = YES;
+ 
 }
-*/
+
 
 @end

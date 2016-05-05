@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DaysTableViewController : UITableViewController
+@interface DaysTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSString *forwardButtonString;
 
 @end
